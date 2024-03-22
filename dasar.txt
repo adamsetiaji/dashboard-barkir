@@ -1,0 +1,20 @@
+https://www.youtube.com/watch?v=P2hwV3MQ-wE
+
+npm install -g @vue/cli
+
+vue create dashboard-barkir
+npm i -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+
+vue.config:
+
+content: [
+    "./index.html",
+    "./src/**/*.{vue, js, ts, jsx, tsx}",
+]
+
+css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
